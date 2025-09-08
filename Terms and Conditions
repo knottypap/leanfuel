@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="google-site-verification" content="mpcpy_Le3wlhNJ_ZT7FwP3EBxqSdwQCy86bTMoKiOsA" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Terms and Conditions</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 40px;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    h1, h2 {
+      color: #007b5e;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+    }
+
+    a {
+      color: #007b5e;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Terms and Conditions</h1>
+    <p><strong>Effective Date:</strong> [Insert Date]</p>
+
+    <p>
+      Welcome to <strong>HealthUniverse.hshub.net</strong>, operated by <strong>Devoraels Ltd</strong>. By accessing or using this website, you agree to be bound by the following Terms and Conditions. If you do not agree with any part of these terms, please do not use our website.
+    </p>
+
+    <h2>1. Use of the Website</h2>
+    <p>
+      You agree to use the site for lawful purposes only. You must not use the site in a way that may damage, disable, overburden, or impair it, or interfere with others’ use of the site.
+    </p>
+
+    <h2>2. Intellectual Property Rights</h2>
+    <p>
+      All content on this site, including text, graphics, logos, images, and software, is the property of Devoraels Ltd or its content suppliers and protected by intellectual property laws. Unauthorized use may violate copyright, trademark, and other laws.
+    </p>
+
+    <h2>3. Affiliate Links and Advertising</h2>
+    <p>
+      Some links on healthuniverse.hshub.net are affiliate links. This means we may receive a commission if you click and make a purchase. This does not affect the price you pay. We may also display third-party ads, which are not endorsed or controlled by us.
+    </p>
+
+    <h2>4. Disclaimer of Warranties</h2>
+    <p>
+      The content on this website is provided "as is" without warranties of any kind. We do not guarantee the accuracy, completeness, or reliability of the content. For full details, refer to our <a href="disclaimer.html">Disclaimer</a> page.
+    </p>
+
+    <h2>5. Limitation of Liability</h2>
+    <p>
+      Devoraels Ltd shall not be liable for any indirect, incidental, special, or consequential damages resulting from the use or inability to use the website or its content.
+    </p>
+
+    <h2>6. Privacy</h2>
+    <p>
+      Your use of the website is also governed by our <a href="privacy-policy.html">Privacy Policy</a> and <a href="cookie-policy.html">Cookie Policy</a>.
+    </p>
+
+    <h2>7. External Links</h2>
+    <p>
+      Our site may contain links to other websites. We are not responsible for the content or accuracy of those external sites and do not endorse them.
+    </p>
+
+    <h2>8. Changes to These Terms</h2>
+    <p>
+      We may update these Terms and Conditions at any time. Changes will be posted on this page with a revised effective date. Continued use of the site means you accept the updated terms.
+    </p>
+
+    <h2>9. Governing Law</h2>
+    <p>
+      These terms are governed by the laws of the United Kingdom, and any disputes will be resolved in the UK courts, unless otherwise agreed.
+    </p>
+
+    <h2>10. Contact Information</h2>
+    <p>
+      For any questions about these Terms and Conditions, please contact us at:  
+      📧 <a href="healthmatterslife@gmail.com">healthmatterslife@gmail.com</a>
+    </p>
+  </div>
+</body>
+</html>
