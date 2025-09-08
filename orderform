@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order Keto Plan</title>
+  <style>
+    body { font-family: Arial, sans-serif; background:#f4f4f4; }
+    .container { max-width:600px; margin:3rem auto; background:#fff; padding:2rem; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.1); }
+    h1 { text-align:center; margin-bottom:1rem; }
+    form { display:flex; flex-direction:column; }
+    label { margin:0.5rem 0 0.2rem; }
+    input { padding:0.7rem; margin-bottom:1rem; border:1px solid #ccc; border-radius:5px; }
+    button { background:#28a745; color:#fff; padding:1rem; border:none; border-radius:8px; cursor:pointer; font-size:1rem; }
+    button:hover { background:#218838; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Secure Checkout</h1>
+    <!-- ✅ This form now sends to thankyou.html -->
+    <form action="thankyou.html" method="GET">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="card">Card Number</label>
+      <input type="text" id="card" name="card" placeholder="1234 5678 9012 3456" required>
+
+      <label for="expiry">Expiry Date</label>
+      <input type="text" id="expiry" name="expiry" placeholder="MM/YY" required>
+
+      <label for="cvv">CVV</label>
+      <input type="text" id="cvv" name="cvv" required>
+
+      <button type="submit">Complete Order - $27</button>
+    </form>
+  </div>
+</body>
+</html>
