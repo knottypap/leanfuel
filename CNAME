@@ -1,1 +1,35 @@
 www.leanfuel.myhealthmatters.life
+
+server {
+    listen 80;
+    server_name buzz.hshub.net;
+    return 301 https://$host$request_uri;
+}
+
+server {
+    listen 443 ssl;
+    server_name buzz.hshub.net;
+
+    ssl_certificate /etc/letsencrypt/live/buzz.hshub.net/fullchain.pem;
+    ssl_certificate_key /etc/letsencrypt/live/buzz.hshub.net/privkey.pem;
+
+    root /var/www/buzz;
+    index index.html index.php;
+
+    add_header X-Frame-Options "SAMEORIGIN" always;
+    add_header X-Content-Type-Options "nosniff" always;
+    add_header Referrer-Policy "no-referrer-when-downgrade" always;
+    add_header Content-Security-Policy "default-src 'self' https: data: 'unsafe-inline' 'unsafe-eval';" always;
+    add_header Strict-Transport-Security "max-age=31536000; includeSubDomains; preload" always;
+
+    location / {
+        try_files $uri $uri/ =404;
+    }
+
+    # (If using PHP)
+    location ~ \.php$ {
+        fastcgi_pass unix:/run/php/php8.1-fpm.sock;
+        include fastcgi_params;
+        fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+    }
+}
